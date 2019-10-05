@@ -1,0 +1,33 @@
+﻿body {
+    margin: 1000;
+    padding: 100;
+    background: url('https://i.pinimg.com/originals/84/dd/09/84dd0962edba0762c09f000d9b2e6ecd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: chartreuse;
+    font-size: x-large;
+}
+
+.avatar {
+    margin: 10px;
+    width: 80px;
+    height: 0 px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50%-50px);
+}
+
+.login_box {
+    width: 320 px;
+    height: 420px;
+    background: #ffffff;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,050%);
+    box-sizing: border-box;
+}
